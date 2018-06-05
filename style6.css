@@ -1,0 +1,49 @@
+body {
+	padding: 0;
+	margin: 0;
+}
+
+ 
+
+.hola{
+	width: 100%;
+	background-color: green;
+	height: 20%;
+	top:0 ;
+	padding: 1px;
+
+
+}
+
+.texto{
+	color:white;
+	font-size: 8vh;
+	text-align: center;
+	font-family: 'Roboto Condensed', sans-serif;
+	font-weight: 15;
+	
+
+
+}
+
+.columna{
+		
+	width: 33%;
+	height: 500px;
+	padding: 20px;
+	float: left;
+	box-sizing: border-box;
+	font-family: 'Roboto Condensed', sans-serif;
+	font-weight: 15;
+
+}
+
+.img{
+	max-width: 100%
+}
+
+@media (max-width: 480px){
+	.columna {
+		width: 100%;
+	}
+}
